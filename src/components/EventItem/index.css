@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.img {
+  height: 180px;
+  width: 280px;
+}
+.li-container {
+  list-style-type: none;
+  margin: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.name {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: large;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.location {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: small;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.active {
+  border: 2px solid #2dd4bf;
+}
